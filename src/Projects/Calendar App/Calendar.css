@@ -1,0 +1,30 @@
+.color {
+    background-color: #3498db;
+}
+
+.calendar-button:hover {
+    background-color: #3498db;
+}
+
+.calendar-header {
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar-day {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.calendar-day:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.current {
+    background-color: tomato;
+}
+
+.calender-body {
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+}

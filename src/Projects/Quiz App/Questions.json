@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "What is the purpose of the `useState` hook in React?",
+    "options": ["To manage component state", "To handle side effects", "To fetch data from an API", "To update the DOM directly"],
+    "correctOption": "To manage component state"
+  },
+  {
+    "id": 2,
+    "question": "Which CSS property is used to change the background color of an element?",
+    "options": ["color", "background-color", "border", "padding"],
+    "correctOption": "background-color"
+  },
+  {
+    "id": 3,
+    "question": "What does HTML stand for?",
+    "options": ["Hyper Text Markup Language", "Home Tool Markup Language", "Hyperlinks and Text Markup Language", "Hyperlinking Text Mark Language"],
+    "correctOption": "Hyper Text Markup Language"
+  },
+  {
+    "id": 4,
+    "question": "In JavaScript, which keyword is used to declare a variable?",
+    "options": ["let", "const", "var", "All of the above"],
+    "correctOption": "All of the above"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is a CSS framework?",
+    "options": ["Bootstrap", "React", "Node.js", "Express"],
+    "correctOption": "Bootstrap"
+  }
+]

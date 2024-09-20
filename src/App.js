@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
 
-function App() {
+import UserCard from "./Projects/User Card/UserCard";
+import QrCode from "./Projects/QR code generator/QrCode";
+import UseStateExample from "./Use State Example/UseStateExample";
+import RegForm from "./Use State Example/RegForm";
+import AdviceApp from "./Projects/Advice App/AdviceApp";
+import WeatherApp from "./Projects/Weather App/WeatherApp";
+import BMICalculator from "./Projects/BMI Calculator/BMICalculator";
+import CurrencyConvertor from "./Projects/Currency Convertor/CurrencyConvertor";
+import UseEffectExample from "./Use Effect Example/UseEffectExample";
+import DigitalClock from "./Projects/Digital Clock/DigitalClock";
+import PasswordGenerator from "./Projects/Password Generator/PasswordGenerator";
+import FAQExample from "./Projects/FAQ/FAQExample";
+import Calendar from "./Projects/Calendar App/Calendar";
+import ReactBasic from "./React Basic/ReactBasic";
+// import "./CSS/advice.css";
+// import "./CSS/user.css";
+import "./CSS/qrcode.css";
+import QuizApp from "./Projects/Quiz App/QuizApp";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <ReactBasic /> */}
+      {/* <UserCard /> */}
+      {/* <QrCode /> */}
+      {/* <UseStateExample /> */}
+      {/* <RegForm /> */}
+      {/* <AdviceApp /> */}
+      {/* <WeatherApp /> */}
+      {/* <BMICalculator /> */}
+      {/* <CurrencyConvertor /> */}
+      {/* <UseEffectExample /> */}
+      {/* <DigitalClock /> */}
+      {/* <PasswordGenerator /> */}
+      {/* <FAQExample /> */}
+      {/* <Calendar /> */}
+      <QuizApp />
+    </>
   );
-}
+};
 
 export default App;
